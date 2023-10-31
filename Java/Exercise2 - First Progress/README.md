@@ -8,7 +8,7 @@ The exercise I am presenting is not complete; it lacks the booking system, the a
 I learned to divide the work into tasks and to coordinate in a team, facing various problems related to setting up the project on GitHub. I also learned that it is much more stable to add new features only after testing the previous parts.
 
 # Exercise 2
-Create software that manages the functional elements requested by a pastry chef.
+Create a software that manages the functional elements requested by a pastry chef.
 
 Specifications:
 
