@@ -1,38 +1,36 @@
-# Videogioco
-Questo primo esercizio consisteva nel creare una gerarchia di classi per rappresentare differenti tipi di videogiochi.< br/>
-Un admin si dovrebbe occupare di gestire le richieste (i tipi di gioco richiesti) degli utenti.
+# Video Game
+This first exercise involved creating a hierarchy of classes to represent different types of video games. An admin should be in charge of managing the requests (the types of games requested) from users.
 
-# Difficoltà
-L'esercizio che riporto non è completo e anzi manca gran parte dell'interfaccia utente.< br/>
-La più grande difficoltà trovata nello svolgere questo progetto è stata la gestione dei tempi e l'organizzazione personale.
+# Challenges
+The exercise I'm presenting is not complete, and most of the user interface is missing. The greatest difficulty encountered in carrying out this project was time management and personal organization.
 
-# Cosa ho imparato:
-Ho imparato che devo gestire meglio i miei tempi e organizzarmi prima di buttarmi direttamente sul codice.
+# What I'Ve Learned:
+I learned that I need to manage my time better and organize myself before diving straight into coding.
 
-# Esercizio 1
+# Exercise 1
 
-Creare una gerarchia di classi per rappresentare differenti tipi di videogiochi e che permetta di farlo solo previo registrazione con gestione admin annessa.
+Create a hierarchy of classes to represent different types of video games and allow it only after registration with attached admin management.
 
-Specifiche:
-Creare una classe base Videogioco che contiene:
-Una variabile nome per il nome del videogioco.
-Una variabile genere per il genere del videogioco (es. Azione, Avventura, Strategia).
-Un metodo gioca() che stampa un messaggio generico come "Stai giocando a [nome]".
+Specifications:
+Create a base class called VideoGame that contains:
+A variable 'name' for the name of the video game.
+A variable 'genre' for the genre of the video game (e.g., Action, Adventure, Strategy).
+A method play() that prints a generic message like "You are playing [name]".
 
-Creare due classi derivate: 
-VideogiocoAzione e VideogiocoStrategia che ereditano da Videogioco.
-La classe VideogiocoAzione dovrebbe avere un metodo aggiuntivo combatti() che stampa "Combattimento in corso...".
-La classe VideogiocoStrategia dovrebbe avere un metodo aggiuntivo pianifica() che stampa "Pianificazione strategica in corso...".
+Create two derived classes:
+ActionVideoGame and StrategyVideoGame that inherit from VideoGame.
+The ActionVideoGame class should have an additional method fight() that prints "Fight in progress...".
+The StrategyVideoGame class should have an additional method plan() that prints "Strategic planning in progress...".
 
-Dimostra il polimorfismo 
-creando un array di oggetti Videogioco e attraversandolo per chiamare il metodo gioca() su ogni elemento.
+Demonstrate polymorphism
+by creating an array of VideoGame objects and traversing it to call the play() method on each element.
 
-Gestire il multi utente
-Far si che l’utente si debba registrare per poter accedere
-Creare Log e Log out a scelta disponibili sempre
-Far si che si possa registrare in memoria più di un utente ma uni-nominativo 
+Handle multi-user:
+Ensure that the user must register to gain access.
+Create Log in and Log out options always available.
+Ensure that more than one user can be registered in memory but with unique names.
 
-Gestire L’admin:
-L’admin è un utente speciale che può ricevere “richieste”
-Può aggiungere, rimuovere e modificare i videogiochi
-Le richieste non sono altro che utenti che richiedono uno specifico tipo di gioco che lui può vedere e/o eliminare
+Manage the Admin:
+The admin is a special user who can receive "requests".
+Can add, remove, and modify video games.
+Requests are nothing more than users requesting a specific type of game that he can view and/or delete.
