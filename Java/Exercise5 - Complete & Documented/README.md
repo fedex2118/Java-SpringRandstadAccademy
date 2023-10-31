@@ -1,17 +1,17 @@
 # SportsStore
-Questo quinto esercizio consisteva nel creare un applicazione per un "cliente" che ha un negozio sportivo (Menu UI per Admin e per Utente + collegamento a Database).
+This fifth exercise involved creating an application for a "client" who owns a sports store (Menu UI for Admin and User + connection to Database).
 
-# Difficoltà
-L'esercizio che riporto è completo, mancano e si potranno aggiungere funzionalità extra in futuro ma il "cliente" può ritenersi soddisfatto.
+# Challenges:
+The exercise I'm presenting is complete. There are missing features that can be added in the future, but the "client" can be considered satisfied.
 
-La difficoltà principale di questo progetto è stata data principalmente da github che per gruppi più estesi diventa sempre più difficile da utilizzare.
+The main challenge of this project was primarily due to GitHub. As the team size grows, it becomes increasingly challenging to use.
 
-# Cosa ho imparato:
-Ho imparato ad arrivare a termine lavorando in gruppo svolgendo e testando pezzettino dopo pezzettino, dallo stabilire le specifiche e le code rules con il team al completamento del progetto con l'aggiunta di documentazione accurata. 
+# What I learned:
+I learned how to reach completion while working in a team, doing and testing bit by bit, from setting the specifications and code rules with the team to completing the project with the addition of detailed documentation.
 
-Questo progetto lo ritengo un traguardo personale sia perché è un progetto completato ed anche perché presenta la documentazione per il "cliente".
+I consider this project a personal achievement both because it's a completed project and because it provides documentation for the "client".
 
-Di seguito la documentazione:
+Below is the documentation:
 
 # Progetto
 Welcome to the Sport Store Web Application, an application for managing an online sports store. This application allows users to register, log in, explore products available in the store, add products to the cart, make purchases, and more.
