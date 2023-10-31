@@ -12,8 +12,10 @@ Ho imparato che se ci si fossilizza su un determinato problema (es. come gestire
 
 # Esercizio 4
 
-Applicazione di Gestione Auto.< br\>
-Parte 1: Definizione delle Strutture
+Applicazione di Gestione Auto.
+
+Parte 1: Definizione delle Strutture.
+
 Obiettivo: Creare una struttura dati e le classi di base.
 
 Dettagli Implementazione:
