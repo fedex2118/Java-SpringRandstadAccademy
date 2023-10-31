@@ -3,7 +3,7 @@ Welcome to my collection of Spring exercises. <br />
 This folder contains exercises that I developed during my training course at Randstad Academy.<br />
 The exercises were done in 4 hours, no more nor less.<br />
 <br />
-these exercises are complete compared to those in Java.
+These exercises are complete compared to those in Java.
 
 # Index of Exercises (Mini Projects)
 Exercise1 - helloWorld<br />
