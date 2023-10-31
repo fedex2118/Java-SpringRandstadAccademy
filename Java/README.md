@@ -1,13 +1,13 @@
 # Esercizi Java
-Benvenuto nella mia raccolta di esercizi Java. Questa cartella contiene esercizi che ho sviluppato durante il mio percorso di formazione della Randstad Accademy.
+Benvenuto nella mia raccolta di esercizi Java. Questa cartella contiene esercizi che ho sviluppato durante il mio percorso di formazione della Randstad Accademy.<br />
 I primi esercizi sono in gran parte incompleti e sono qui solo per mostrare il mio percorso di crescita, dalle difficoltà nell'organizzare i miei tempi al lavorare in gruppo e arrivare alla fine a portare a casa un progetto completo e ben documentato.
 
 # Indice degli Esercizi (Mini Progetti)
-Esercizio1 - Inizio
-Esercizio2 - Primo progresso
-Esercizio3 - Secondo progresso
-Esercizio4 - QuasiCompleto
-Esercizio5 - Completo&Documentato
+Esercizio1 - Inizio<br />
+Esercizio2 - Primo progresso<br />
+Esercizio3 - Secondo progresso<br />
+Esercizio4 - QuasiCompleto<br />
+Esercizio5 - Completo&Documentato<br />
 
 # Come utilizzare questa repo
 Scarica o clona la repo sul tuo computer.
