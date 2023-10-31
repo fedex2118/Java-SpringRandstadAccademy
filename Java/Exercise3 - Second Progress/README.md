@@ -1,9 +1,9 @@
 # RaccomandazioneLibreria
-Questo terzo esercizio consisteva nel creare un sistema di raccomandazione per una libreria online< br/>
+Questo terzo esercizio consisteva nel creare un sistema di raccomandazione per una libreria online< br\>
 Questo esercizio richiede anche la creazione e gestione di un database legato alla libreria.
 
 # Difficoltà
-L'esercizio che riporto non è completo e manca la parte 2 dell'esercizio ovvero l'implementazione del sistema di raccomandazione.< br/>
+L'esercizio che riporto non è completo e manca la parte 2 dell'esercizio ovvero l'implementazione del sistema di raccomandazione.< br\>
 Ci sono state diverse difficoltà in questo esercizio. Scegliere se fare prima database o dedicarsi direttamente al sistema di raccomandazione è stato il primissimo ostacolo. 
 In seguito la più grande difficoltà è stata trovata nel cercare di adattarsi a complesse situazioni di lavoro in gruppo.
 
