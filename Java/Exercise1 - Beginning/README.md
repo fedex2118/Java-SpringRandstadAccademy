@@ -1,5 +1,6 @@
 # Video Game
 This first exercise involved creating a hierarchy of classes to represent different types of video games. An admin should be in charge of managing the requests (the types of games requested) from users.
+
 We could decide to follow the specifications or try to complete the exercise on our own way.
 
 # Challenges
