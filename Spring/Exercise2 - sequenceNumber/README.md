@@ -1,5 +1,5 @@
 # sequenceNumber in Spring
-This first exercise involved creating a sequence of numbers in Spring that the user can visualize on the local browser.
+This exercise involved creating a sequence of numbers in Spring that the user can visualize on the local browser.
 
 # Challenges
 Get used to the Spring framework and annotations.
