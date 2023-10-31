@@ -37,7 +37,7 @@ Details:<br />
 4. In the OnlineBookstore class, implement a popularBooks method that returns the books with the highest number of positive reviews.
 5. The ultimate goal of this exercise is to develop a recommendation system that suggests relevant and interesting books for the user, thereby enhancing the user experience and potentially increasing sales for the bookstore.
 
-# TaskList
+# Tasks List:
 1. Creation and definition of the User class with related variables and methods (buyBook() and leaveReview()).
 2. Creation and definition of the Book class with related variables and methods (showDetails()).
 3. Creation and definition of the Review class with related variables.
