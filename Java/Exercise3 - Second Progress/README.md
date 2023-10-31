@@ -1,6 +1,4 @@
-# RaccomandazioneLibreriaOnline
- 
-LISTA TASKS (Team Federico e Valerio):
+# Lista Tasks
 
 1. Creazione e definizione classe Utente con relative variabili e metodi ( acquistaLibro() e lasciaRecensione() )
 
