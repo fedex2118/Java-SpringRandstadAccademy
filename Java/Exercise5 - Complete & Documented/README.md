@@ -6,7 +6,7 @@ The exercise I'm presenting is complete. There are missing features that can be 
 
 The main challenge of this project was primarily due to GitHub. As the team size grows, it becomes increasingly challenging to use.
 
-# What I learned:
+# What I've learned
 I learned how to reach completion while working in a team, doing and testing bit by bit, from setting the specifications and code rules with the team to completing the project with the addition of detailed documentation.
 
 I consider this project a personal achievement both because it's a completed project and because it provides documentation for the "client".
