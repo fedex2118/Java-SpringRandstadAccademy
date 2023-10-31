@@ -7,7 +7,7 @@ The exercise I am presenting is not complete and is missing part 2, i.e., the im
 There were several challenges in this exercise. Choosing whether to start with the database or to directly tackle the recommendation system was the very first hurdle.<br />
 Later, the biggest challenge was trying to adapt to complex group work situations.
 
-# What I Learned
+# What I've learned:
 I learned to put on hold a task I was working on in order to push forward a colleague's task when they couldn't carry out their own due to issues (any kind of issue: health, development environment not working, etc...).<br />
 I learned to adapt to the team's needs.
 
