@@ -13,8 +13,8 @@ Ho imparato a sapermi adattare alle esigenze del team.
 
 # Esercizio 3
 
-Creazione di un sistema di raccomandazione per una libreria online<br />
-Parte 1: Strutturazione del database e della logica di base<br />
+Creazione di un sistema di raccomandazione per una libreria online.<br />
+Parte 1: Strutturazione del database e della logica di base.<br />
 Descrizione: Il tuo compito è progettare e implementare un sistema base per una libreria online. Questo sistema dovrebbe essere in grado di gestire utenti, libri e le recensioni fatte dagli utenti sui libri.<br />
 
 Dettagli:<br />
