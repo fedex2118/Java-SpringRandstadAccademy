@@ -1,15 +1,14 @@
 # GestioneAuto
-Questo terzo esercizio consisteva nel creare un sistema di raccomandazione per una libreria online<br />
-Questo esercizio richiede anche la creazione e gestione di un database legato alla libreria.
+Questo quarto esercizio consisteva nel creare un applicazione per gestire automobili presenti in un database<br />
+Questo esercizio richiede anche la creazione e gestione di un database legato alle automobili.
+Viene richiesta l'implementazione di un Menu UI Admin e un Sottomenu UI Admin per la parte CRUD, e si dovrebbero infine salvare le informazioni degli oggetti in un file di testo.
 
 # Difficoltà
-L'esercizio che riporto non è completo e manca la parte 2 dell'esercizio ovvero l'implementazione del sistema di raccomandazione.<br />
-Ci sono state diverse difficoltà in questo esercizio. Scegliere se fare prima database o dedicarsi direttamente al sistema di raccomandazione è stato il primissimo ostacolo.<br />
-In seguito la più grande difficoltà è stata trovata nel cercare di adattarsi a complesse situazioni di lavoro in gruppo.
+L'esercizio che riporto è quasi completo, manca solamente la parte di gestione dei file.
+La difficoltà principale riscontrata in questo esercizio è stata trovata nello scegliere da dove cominciare a lavorare se cominciare dal File direttamente o dal Database.
 
 # Cosa ho imparato:
-Ho imparato a lasciare in sospeso un task a cui stavo lavorando per portare avanti il task di colleghi, nel momento in cui i colleghi non possano svolgere il proprio per problemi (qualsiasi tipo di problema: salute, ambiente di sviluppo che non funziona, ecc...).<br />
-Ho imparato a sapermi adattare alle esigenze del team.
+Ho imparato che se ci si fossilizza su un determinato problema (es. come gestire i file), molte volte per arrivare al risultato conviene ritornarci in un secondo momento. Bisogna dunque stabilire delle priorità o adattarsi a esse.
 
 # Esercizio 4
 
