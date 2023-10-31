@@ -3,10 +3,12 @@ Questo quinto esercizio consisteva nel creare un applicazione per un "cliente" c
 
 # Difficoltà
 L'esercizio che riporto è completo, mancano e si potranno aggiungere funzionalità extra in futuro ma il "cliente" può ritenersi soddisfatto.
+
 La difficoltà principale di questo progetto è stata data principalmente da github che per gruppi più estesi diventa sempre più difficile da utilizzare.
 
 # Cosa ho imparato:
 Ho imparato ad arrivare a termine lavorando in gruppo svolgendo e testando pezzettino dopo pezzettino, dallo stabilire le specifiche e le code rules con il team al completamento del progetto con l'aggiunta di documentazione accurata. 
+
 Questo progetto lo ritengo un traguardo personale sia perché è un progetto completato ed anche perché presenta la documentazione per il "cliente".
 
 Di seguito la documentazione:
