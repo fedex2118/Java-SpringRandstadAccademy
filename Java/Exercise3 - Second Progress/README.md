@@ -4,11 +4,11 @@ Questo esercizio richiede anche la creazione e gestione di un database legato al
 
 # Difficoltà
 L'esercizio che riporto non è completo e manca la parte 2 dell'esercizio ovvero l'implementazione del sistema di raccomandazione.<br />
-Ci sono state diverse difficoltà in questo esercizio. Scegliere se fare prima database o dedicarsi direttamente al sistema di raccomandazione è stato il primissimo ostacolo. 
+Ci sono state diverse difficoltà in questo esercizio. Scegliere se fare prima database o dedicarsi direttamente al sistema di raccomandazione è stato il primissimo ostacolo.<br />
 In seguito la più grande difficoltà è stata trovata nel cercare di adattarsi a complesse situazioni di lavoro in gruppo.
 
 # Cosa ho imparato:
-Ho imparato a lasciare in sospeso un task a cui stavo lavorando per portare avanti il task di colleghi, nel momento in cui i colleghi non possano svolgere il proprio per problemi (qualsiasi tipo di problema: salute, ambiente di sviluppo che non funziona, ecc...).
+Ho imparato a lasciare in sospeso un task a cui stavo lavorando per portare avanti il task di colleghi, nel momento in cui i colleghi non possano svolgere il proprio per problemi (qualsiasi tipo di problema: salute, ambiente di sviluppo che non funziona, ecc...).<br />
 Ho imparato a sapermi adattare alle esigenze del team.
 
 # Esercizio 3
