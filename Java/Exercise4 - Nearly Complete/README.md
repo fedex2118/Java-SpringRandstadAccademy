@@ -68,7 +68,7 @@ Implementation Details:
 1. Function searchCarByYear(): Should allow the user to enter a year and display all cars of that year.
 2. Function filterCarByPrice(): Should allow the user to enter a price range and display all cars within that range.
 
-# TASKS LIST:
+# Tasks List:
 1. Creation and definition of Car class with related variables and methods (getters() setters() toString() and constructor)
 2. Creation and definition of CarManagement class with related variables and methods.
 3. Creation and definition of User class
