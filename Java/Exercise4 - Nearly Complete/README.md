@@ -49,14 +49,18 @@ Sottomenu per Modifica Auto: Dopo aver selezionato un'auto per la targa, present
 6. Modifica tipo di carburante
 7. Torna al menu principale
 
-Parte 3: Operazioni su File
+Parte 3: Operazioni su File.
+
 Obiettivo: Implementare funzioni per leggere e scrivere sul file di testo.
+
 Dettagli Implementazione:
 1. Funzione leggiDaFile(): Dovrebbe leggere le informazioni dal file e popolare la lista listaAuto.
 2. Funzione scriviSuFile(): Dovrebbe scrivere le informazioni dalla lista listaAuto al file, ogni volta che l'elenco viene modificato.
 
-Parte 4: Operazioni Avanzate
+Parte 4: Operazioni Avanzate.
+
 Obiettivo: Implementare funzioni di ricerca e filtraggio.
+
 Dettagli Implementazione:
 1. Funzione cercaAutoPerAnno(): Dovrebbe permettere all'utente di inserire un anno e visualizzare tutte le auto di quell'anno.
 2. Funzione filtraAutoPerPrezzo(): Dovrebbe permettere all'utente di inserire un range di prezzo e visualizzare tutte le auto all'interno di quel range.
