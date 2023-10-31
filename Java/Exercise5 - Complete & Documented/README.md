@@ -1,4 +1,16 @@
 # SportsStore
+Questo quinto esercizio consisteva nel creare un applicazione per un "cliente" che ha un negozio sportivo (Menu UI per Admin e per Utente + collegamento a Database).
+
+# Difficoltà
+L'esercizio che riporto è completo, mancano e si potranno aggiungere funzionalità extra in futuro ma il "cliente" può ritenersi soddisfatto.
+
+# Cosa ho imparato:
+Ho imparato ad arrivare a termine lavorando in gruppo svolgendo e testando pezzettino dopo pezzettino, dallo stabilire le specifiche e le code rules con il team al completamento del progetto con l'aggiunta di documentazione accurata. 
+Questo progetto lo ritengo un traguardo personale sia perché è un progetto completato ed anche perché presenta la documentazione per il "cliente".
+
+Di seguito la documentazione:
+
+# Progetto
 Welcome to the Sport Store Web Application, an application for managing an online sports store. This application allows users to register, log in, explore products available in the store, add products to the cart, make purchases, and more.
 
 # Project Description
