@@ -1,72 +1,74 @@
-# Pasticceria
-Questo secondo esercizio consisteva nel creare un software che gestisca gli elementi funzionali della richiesta di un pasticcere.< br/>
-Si devono gestire quindi Prodotti, Ingredienti, Dipendenti e infine anche Utenti (extra opzionale interfaccia UI).
+# Pastry Shop
+This second exercise involved creating software to manage the functional elements requested by a pastry chef. It is necessary to manage Products, Ingredients, Employees, and finally also Users (optional extra UI interface).
 
-# Difficoltà
-L'esercizio che riporto non è completo, mancano il sistema di prenotazione la parte amministrativa e di fedeltà clienti.< br/>
-La più grande difficoltà trovata nello svolgere questo progetto è stato il lavorare in gruppo e sapersi coordinare.
+# Challenges
+The exercise I am presenting is not complete; it lacks the booking system, the administrative part, and the customer loyalty system. The greatest difficulty encountered in carrying out this project was working in a group and coordinating.
 
-# Cosa ho imparato:
-Ho imparato a dividere il lavoro in tasks e a coordinarmi in team, affrontando diversi problemi legati al setup del progetto su github.
-Inoltre ho imparato che risulta molto più stabile aggiungere nuove funzionalità solo dopo aver testato le parti precedenti.
+# What I've Learned:
+I learned to divide the work into tasks and to coordinate in a team, facing various problems related to setting up the project on GitHub. I also learned that it is much more stable to add new features only after testing the previous parts.
 
-# Esercizio 2
+# Exercise 2
+Create software that manages the functional elements requested by a pastry chef.
 
-Creare un software che gestisca gli elementi funzionali della richiesta di un pasticcere. 
+Specifications:
 
-Specifiche:
+Base Classes:
 
-Classi Base:
+1. Create a Product class that represents a single item sold in the pastry shop. Each product should have:
+   - Name: the name of the product (e.g., "Chocolate Cake").
+   - Price: the product price.
+   - Ingredients: a list of used ingredients.
+   - Description: a short product description.
+   - AvailableQuantity: the quantity of that product available in stock.
+   - A sell() method that reduces the available quantity when the product is sold.
 
-Creare una classe Prodotto che rappresenti un singolo articolo venduto nella pasticceria. Ogni prodotto dovrebbe avere:
-nome: il nome del prodotto (es. "Torta al cioccolato").
-prezzo: il prezzo del prodotto.
-ingredienti: una lista degli ingredienti utilizzati.
-descrizione: una breve descrizione del prodotto.
-quantitàDisponibile: quantità di quel prodotto disponibile in magazzino.
-Un metodo vendi() che riduce la quantità disponibile quando il prodotto viene venduto.
-Creare una classe Cliente che rappresenti un cliente del negozio. Ogni cliente dovrebbe avere:
-nome: nome del cliente.
-cognome: cognome del cliente.
-indirizzo: indirizzo di consegna.
-carrello: una lista di prodotti che il cliente intende acquistare.
-Un metodo aggiungiAlCarrello(Prodotto p) per aggiungere prodotti al carrello.
-Un metodo effettuaOrdine() per confermare l'acquisto dei prodotti nel carrello.
-Classi Derivate:
+2. Create a Customer class that represents a shop customer. Each customer should have:
+   - Name: customer's first name.
+   - Surname: customer's last name.
+   - Address: delivery address.
+   - Cart: a list of products the customer intends to purchase.
+   - A addToCart(Product p) method to add products to the cart.
+   - A placeOrder() method to confirm the purchase of the products in the cart.
 
-Dalla classe Prodotto, creare diverse sottoclassi che rappresentino categorie specifiche di prodotti, come Torta, Biscotto, Cupcake, ecc. Queste classi potrebbero avere proprietà o metodi speciali. Ad esempio, la classe Torta potrebbe avere una variabile numeroDiPezzi o un metodo taglia().
-Gestione del Personale:
+Derived Classes:
 
-Creare una classe Dipendente con le seguenti proprietà:
-nome, cognome, dataDiNascita, dataAssunzione, ruolo (es. "Pasticcere", "Cassiere", "Manager").
-Un metodo lavora() che stampa un messaggio in base al ruolo del dipendente.
-Creare una classe Manager derivata da Dipendente con metodi aggiuntivi come assumi(Dipendente d) e licenzia(Dipendente d).
-Sistema di Prenotazione:
+From the Product class, create several subclasses representing specific product categories, such as Cake, Cookie, Cupcake, etc. These classes might have special properties or methods. For instance, the Cake class might have a numberOfPieces variable or a slice() method.
 
-Implementare un sistema di prenotazione che permetta ai clienti di prenotare prodotti in anticipo. Il sistema dovrebbe tracciare le prenotazioni e assicurarsi che i prodotti prenotati non vengano venduti ad altri clienti.
-Interfaccia di Amministrazione:
+Staff Management:
 
-Creare una classe Amministrazione con metodi che permettano di:
-Aggiungere o rimuovere prodotti dal catalogo.
-Visualizzare l'elenco dei prodotti più venduti.
-Gestire gli ordini dei clienti.
-Visualizzare e gestire le prenotazioni.
-Assumere, licenziare o visualizzare la lista dei dipendenti.
-Ulteriori sfide:
+1. Create an Employee class with the following properties:
+   - Name, surname, dateOfBirth, hiringDate, role (e.g., "Pastry Chef", "Cashier", "Manager").
+   - A work() method that prints a message based on the employee's role.
 
-Implementare un sistema di fedeltà per i clienti che offre sconti basati sulle spese accumulate.
-Creare una classe Fornitore che rappresenti aziende che forniscono ingredienti alla pasticceria. Implementare metodi per ordinare ingredienti, tracciare le scorte e gestire le fatture.
-Introdurre una valutazione di feedback per i clienti per valutare i prodotti e fornire suggerimenti.
-Inserire i soldi dell cliete
+2. Create a Manager class derived from Employee with additional methods like hire(Employee d) and fire(Employee d).
 
+Reservation System:
 
-# LISTA TASKS (Team Federico e Valerio):
+Implement a reservation system that allows customers to book products in advance. The system should track reservations and ensure that booked products are not sold to other customers.
 
-1. Creazione e definizione classe Prodotto con relative variabili e metodi ( vendi() e toString() ).
-2. Creazione e definizione classe Cliente con relative variabili e metodi ( aggiungiAlCarrello e effettuaOrdine() ).
-3. Testati in classe Pasticceria (con Main intrinseco) le classi sopra citate e i relativi metodi (FUNZIONANO).
-4. Creazione e definizione di classi Dipendente e sottoclasse Manager con metodi aggiuntivi ( assumi() e licenzia() ).
-5. Testare i metodi e le classi definite al punto 4 (FUNZIONANO).
-6. Creazione architettura sistema prenotazioni (NON TERMINATO).
+Administration Interface:
 
-Obbiettivo che volevamo raggiungere: cercare di terminare la parte di "AMMINISTRAZIONE con Cataloghi, Clienti e Personale che interagiscono tra loro".
+1. Create an Administration class with methods that allow:
+   - Adding or removing products from the catalog.
+   - Viewing the list of best-selling products.
+   - Managing customer orders.
+   - Viewing and managing reservations.
+   - Hiring, firing, or viewing the list of employees.
+
+Additional Challenges:
+
+1. Implement a loyalty system for customers offering discounts based on accumulated expenses.
+2. Create a Supplier class representing companies supplying ingredients to the pastry shop. Implement methods to order ingredients, track stocks, and manage invoices.
+3. Introduce a feedback rating for customers to evaluate products and provide suggestions.
+4. Collect customer money.
+
+# Tasks List:
+
+1. Creation and definition of Product class with related variables and methods ( sell() and toString() ).
+2. Creation and definition of Customer class with related variables and methods ( addToCart and placeOrder() ).
+3. Classes mentioned above and their respective methods tested in Pastry Shop class (with intrinsic Main) (WORKING).
+4. Creation and definition of Employee classes and Manager subclass with additional methods ( hire() and fire() ).
+5. Testing the methods and classes defined in point 4 (WORKING).
+6. Creating the architecture of the reservation system (NOT COMPLETED).
+
+The goal we wanted to achieve: try to complete the "ADMINISTRATION with Catalogs, Customers, and Staff interacting with each other."
