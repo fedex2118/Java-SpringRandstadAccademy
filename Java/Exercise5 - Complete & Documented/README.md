@@ -13,10 +13,10 @@ I consider this project a personal achievement both because it's a completed pro
 
 Below is the documentation:
 
-# Progetto
+# Project
 Welcome to the Sport Store Web Application, an application for managing an online sports store. This application allows users to register, log in, explore products available in the store, add products to the cart, make purchases, and more.
 
-# Project Description
+# Description
 The application was developed in Java and is based on a client-server architecture. It uses a MySQL database to manage user data and products available in the store.
 
 # Main Features
