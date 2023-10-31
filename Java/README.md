@@ -10,13 +10,13 @@ Esercizio4 - QuasiCompleto<br />
 Esercizio5 - Completo&Documentato<br />
 
 # Come utilizzare questa repo
-Scarica o clona la repo sul tuo computer.
-Ogni cartella contiene un esercizio specifico. Naviga all'interno per trovare il codice sorgente e le istruzioni.
+Scarica o clona la repo sul tuo computer.<br />
+Ogni cartella contiene un esercizio specifico. Naviga all'interno per trovare il codice sorgente e le istruzioni.<br />
 Utilizza un IDE di tua scelta (consiglio Eclipse, ma puoi provarne altri: IntelliJ IDEA, ecc.) per aprire e eseguire gli esercizi.
 
 # Requisiti
-JDK 8 o superiore.
-IDE per Java (opzionale ma consigliato).
+JDK 8 o superiore.<br />
+IDE per Java (opzionale ma consigliato).<br />
 Alcuni esercizi richiedono l'utilizzo di connettore MySql.
 
 
