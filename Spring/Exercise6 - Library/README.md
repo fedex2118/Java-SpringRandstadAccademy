@@ -3,7 +3,7 @@ This exercise involved creating a system that allows to create, save, delete, up
 This exercise required to handle quantity of books and maximum number of bookings (=3).
 
 # Challenges
-Get used to the Spring framework and annotations.
+Get used to the Spring framework and annotations / manage various requirements of the exercise.
 
 # What I'Ve Learned:
-Learned to use Repository and to handle different situations inside the services.
+Learned to use Repository and to handle different requirements inside the services.
