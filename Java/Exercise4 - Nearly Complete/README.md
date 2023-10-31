@@ -56,8 +56,8 @@ Goal: Implement functions to read and write to the text file.
 
 Implementation Details:
 
-Function readFromFile(): Should read the information from the file and populate the carList.
-Function writeToFile(): Should write information from the carList to the file, every time the list is modified.
+1. Function readFromFile(): Should read the information from the file and populate the carList.
+2. Function writeToFile(): Should write information from the carList to the file, every time the list is modified.
 
 Part 4: Advanced Operations.
 
@@ -65,8 +65,8 @@ Goal: Implement search and filtering functions.
 
 Implementation Details:
 
-Function searchCarByYear(): Should allow the user to enter a year and display all cars of that year.
-Function filterCarByPrice(): Should allow the user to enter a price range and display all cars within that range.
+1. Function searchCarByYear(): Should allow the user to enter a year and display all cars of that year.
+2. Function filterCarByPrice(): Should allow the user to enter a price range and display all cars within that range.
 
 # TASKS LIST:
 1. Creation and definition of Car class with related variables and methods (getters() setters() toString() and constructor)
