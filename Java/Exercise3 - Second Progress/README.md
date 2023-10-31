@@ -13,28 +13,28 @@ Ho imparato a sapermi adattare alle esigenze del team.
 
 # Esercizio 3
 
-Creazione di un sistema di raccomandazione per una libreria online
-Parte 1: Strutturazione del database e della logica di base
-Descrizione: Il tuo compito è progettare e implementare un sistema base per una libreria online. Questo sistema dovrebbe essere in grado di gestire utenti, libri e le recensioni fatte dagli utenti sui libri.
+Creazione di un sistema di raccomandazione per una libreria online<br />
+Parte 1: Strutturazione del database e della logica di base<br />
+Descrizione: Il tuo compito è progettare e implementare un sistema base per una libreria online. Questo sistema dovrebbe essere in grado di gestire utenti, libri e le recensioni fatte dagli utenti sui libri.<br />
 
-Dettagli:
-Crea una classe Utente con attributi come id, nome, email e una lista di libri acquistati.
-Crea una classe Libro con attributi come id, titolo, autore, genere e prezzo.
-Crea una classe Recensione che associ un Utente a un Libro e includa una valutazione (da 1 a 5 stelle) e un commento testuale.
-Crea una classe LibreriaOnline che mantenga una lista di Utenti, Libri e Recensioni.
-Implementa metodi nella classe LibreriaOnline per permettere agli utenti di acquistare libri, lasciare recensioni e visualizzare tutti i libri disponibili.
-Parte 2: Implementazione del sistema di raccomandazione
-Descrizione: Estendendo il lavoro svolto nella Parte 1, ora devi creare un sistema di raccomandazione per suggerire libri agli utenti basato sulle loro preferenze e sulle recensioni lasciate.
+Dettagli:<br />
+Crea una classe Utente con attributi come id, nome, email e una lista di libri acquistati.<br />
+Crea una classe Libro con attributi come id, titolo, autore, genere e prezzo.<br />
+Crea una classe Recensione che associ un Utente a un Libro e includa una valutazione (da 1 a 5 stelle) e un commento testuale.<br />
+Crea una classe LibreriaOnline che mantenga una lista di Utenti, Libri e Recensioni.<br />
+Implementa metodi nella classe LibreriaOnline per permettere agli utenti di acquistare libri, lasciare recensioni e visualizzare tutti i libri disponibili.<br />
+Parte 2: Implementazione del sistema di raccomandazione<br />
+Descrizione: Estendendo il lavoro svolto nella Parte 1, ora devi creare un sistema di raccomandazione per suggerire libri agli utenti basato sulle loro preferenze e sulle recensioni lasciate.<br />
 
-Dettagli:
-Aggiungi un metodo raccomandaLibri nella classe Utente. Questo metodo, quando invocato, dovrebbe ritornare una lista di libri suggeriti.
-La raccomandazione dovrebbe basarsi sui seguenti criteri:
-Libri dello stesso genere di quelli che l'utente ha già acquistato e che hanno una valutazione media alta (ad esempio, 4 o 5 stelle).
-Libri scritti dagli autori dei libri già acquistati dall'utente.
-Se l'utente non ha acquistato nessun libro o se non ci sono libri che soddisfano i criteri sopra, suggerisci i libri più popolari della libreria.
-Implementa un metodo valutazioneMedia nella classe Libro per calcolare la valutazione media basata sulle recensioni.
-Nella classe LibreriaOnline, implementa un metodo libriPopolari che ritorna i libri con il maggior numero di recensioni positive.
-L'obiettivo finale di questo esercizio è sviluppare un sistema di raccomandazione che suggerisca libri pertinenti e di interesse per l'utente, migliorando così l'esperienza dell'utente e aumentando potenzialmente le vendite per la libreria.
+Dettagli:<br />
+Aggiungi un metodo raccomandaLibri nella classe Utente. Questo metodo, quando invocato, dovrebbe ritornare una lista di libri suggeriti.<br />
+La raccomandazione dovrebbe basarsi sui seguenti criteri:<br />
+Libri dello stesso genere di quelli che l'utente ha già acquistato e che hanno una valutazione media alta (ad esempio, 4 o 5 stelle).<br />
+Libri scritti dagli autori dei libri già acquistati dall'utente.<br />
+Se l'utente non ha acquistato nessun libro o se non ci sono libri che soddisfano i criteri sopra, suggerisci i libri più popolari della libreria.<br />
+Implementa un metodo valutazioneMedia nella classe Libro per calcolare la valutazione media basata sulle recensioni.<br />
+Nella classe LibreriaOnline, implementa un metodo libriPopolari che ritorna i libri con il maggior numero di recensioni positive.<br />
+L'obiettivo finale di questo esercizio è sviluppare un sistema di raccomandazione che suggerisca libri pertinenti e di interesse per l'utente, migliorando così l'esperienza dell'utente e aumentando potenzialmente le vendite per la libreria.<br />
 
 # Lista Tasks
 
