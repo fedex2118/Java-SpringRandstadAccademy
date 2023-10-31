@@ -5,6 +5,10 @@ The exercises were done in 4 hours, no more nor less.<br />
 <br />
 These exercises are complete compared to those in Java.
 
+The first 6 are made with Spring, Spring Web only.
+
+The last 2 are made with Spring, Spring Web and Hibernate, Jpa.
+
 # Index of Exercises (Mini Projects)
 Exercise1 - helloWorld<br />
 Exercise2 - sequenceNumber<br />
