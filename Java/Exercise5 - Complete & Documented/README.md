@@ -24,7 +24,7 @@ JDBC Connector/J version >=8
 
 # Installation
 1. Clone the repository:
-git clone https://github.com/yourname/sport-store-app.git
+`git clone https://github.com/yourname/sport-store-app.git`
 
 2. Open the project in Eclipse and ensure JDK 21 is installed. If not already installed, you can download it from Oracle's official site and set it up in Eclipse.
 
