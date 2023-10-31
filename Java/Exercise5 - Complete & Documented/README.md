@@ -5,17 +5,17 @@ Welcome to the Sport Store Web Application, an application for managing an onlin
 The application was developed in Java and is based on a client-server architecture. It uses a MySQL database to manage user data and products available in the store.
 
 # Main Features
-Registration: Users can register a new account by entering information such as username, password, email, first name, and last name.
+- **Registration**: Users can register a new account by entering information such as username, password, email, first name, and last name.
 
-Login: Registered users can log in using their username and password.
+- **Login**: Registered users can log in using their username and password.
 
-Product Exploration: Users can explore the list of products available in the store and view details such as name, description, price, and availability.
+- **Product Exploration**: Users can explore the list of products available in the store and view details such as name, description, price, and availability.
 
-Cart Management: Users can add products to their cart, specifying the desired quantity. They can also remove products from the cart.
+- **Cart Management**: Users can add products to their cart, specifying the desired quantity. They can also remove products from the cart.
 
-Product Purchase: Users can confirm the purchase of the products in their cart. The purchase total will be calculated, and users can confirm or cancel the purchase.
+- **Product Purchase**: Users can confirm the purchase of the products in their cart. The purchase total will be calculated, and users can confirm or cancel the purchase.
 
-Administrator Management: Administrator users have access to additional features, such as adding and removing products from the store.
+- **Administrator Management**: Administrator users have access to additional features, such as adding and removing products from the store.
 
 # Requirements
 Java JDK 21 (recommended version)
