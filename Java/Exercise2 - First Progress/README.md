@@ -1,5 +1,5 @@
 # Pastry Shop
-This second exercise involved creating software to manage the functional elements requested by a pastry chef. It is necessary to manage Products, Ingredients, Employees, and finally also Users (optional extra UI interface).
+This second exercise involved creating a software to manage the functional elements requested by a pastry chef. It is necessary to manage Products, Ingredients, Employees, and finally also Users (optional extra UI interface).
 
 # Challenges
 The exercise I am presenting is not complete; it lacks the booking system, the administrative part, and the customer loyalty system. The greatest difficulty encountered in carrying out this project was working in a group and coordinating.
