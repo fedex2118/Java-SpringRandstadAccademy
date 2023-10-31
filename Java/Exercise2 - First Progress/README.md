@@ -12,4 +12,4 @@
 
 6.Creazione architettura sistema prenotazioni (NON TERMINATO)
 
-OBIETTIVO POMERIGGIO: CERCARE DI TERMINARE LA PARTE "AMMINISTRAZIONE con Cataloghi, Clienti e Personale che interagiscono tra loro".
+OBIETTIVO: CERCARE DI TERMINARE LA PARTE "AMMINISTRAZIONE con Cataloghi, Clienti e Personale che interagiscono tra loro".
