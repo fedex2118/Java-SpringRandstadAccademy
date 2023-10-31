@@ -1,49 +1,47 @@
-# RaccomandazioneLibreria
-Questo terzo esercizio consisteva nel creare un sistema di raccomandazione per una libreria online<br />
-Questo esercizio richiede anche la creazione e gestione di un database legato alla libreria.
+# LibraryRecommendation
+This third exercise was about creating a recommendation system for an online bookstore.<br />
+This exercise also involves the creation and management of a database related to the bookstore.
 
-# Difficoltà
-L'esercizio che riporto non è completo e manca la parte 2 dell'esercizio ovvero l'implementazione del sistema di raccomandazione.<br />
-Ci sono state diverse difficoltà in questo esercizio. Scegliere se fare prima database o dedicarsi direttamente al sistema di raccomandazione è stato il primissimo ostacolo.<br />
-In seguito la più grande difficoltà è stata trovata nel cercare di adattarsi a complesse situazioni di lavoro in gruppo.
+# Challenges
+The exercise I am presenting is not complete and is missing part 2, i.e., the implementation of the recommendation system.<br />
+There were several challenges in this exercise. Choosing whether to start with the database or to directly tackle the recommendation system was the very first hurdle.<br />
+Later, the biggest challenge was trying to adapt to complex group work situations.
 
-# Cosa ho imparato:
-Ho imparato a lasciare in sospeso un task a cui stavo lavorando per portare avanti il task di colleghi, nel momento in cui i colleghi non possano svolgere il proprio per problemi (qualsiasi tipo di problema: salute, ambiente di sviluppo che non funziona, ecc...).<br />
-Ho imparato a sapermi adattare alle esigenze del team.
+# WhatILearned
+I learned to put on hold a task I was working on in order to push forward a colleague's task when they couldn't carry out their own due to issues (any kind of issue: health, development environment not working, etc...).<br />
+I learned to adapt to the team's needs.
 
-# Esercizio 3
+# Exercise3
+Creation of a recommendation system for an online bookstore.<br />
+Part 1: Structuring the database and basic logic.<br />
+Description: Your task is to design and implement a basic system for an online bookstore. This system should be able to manage users, books, and the reviews made by users on books.<br />
 
-Creazione di un sistema di raccomandazione per una libreria online.<br />
-Parte 1: Strutturazione del database e della logica di base.<br />
-Descrizione: Il tuo compito è progettare e implementare un sistema base per una libreria online. Questo sistema dovrebbe essere in grado di gestire utenti, libri e le recensioni fatte dagli utenti sui libri.<br />
-
-Dettagli:<br />
-1. Crea una classe Utente con attributi come id, nome, email e una lista di libri acquistati.
-2. Crea una classe Libro con attributi come id, titolo, autore, genere e prezzo.
-3. Crea una classe Recensione che associ un Utente a un Libro e includa una valutazione (da 1 a 5 stelle) e un commento testuale.
-4. Crea una classe LibreriaOnline che mantenga una lista di Utenti, Libri e Recensioni.
-5. Implementa metodi nella classe LibreriaOnline per permettere agli utenti di acquistare libri, lasciare recensioni e visualizzare tutti i libri disponibili.
+Details:<br />
+1. Create a User class with attributes such as id, name, email, and a list of purchased books.
+2. Create a Book class with attributes like id, title, author, genre, and price.
+3. Create a Review class that associates a User with a Book and includes a rating (from 1 to 5 stars) and a textual comment.
+4. Create an OnlineBookstore class that maintains a list of Users, Books, and Reviews.
+5. Implement methods in the OnlineBookstore class to allow users to purchase books, leave reviews, and view all available books.
 <br />
 
-Parte 2: Implementazione del sistema di raccomandazione.
-Descrizione: Estendendo il lavoro svolto nella Parte 1, ora devi creare un sistema di raccomandazione per suggerire libri agli utenti basato sulle loro preferenze e sulle recensioni lasciate.<br />
+Part 2: Implementation of the recommendation system.
+Description: Extending the work done in Part 1, you now have to create a recommendation system to suggest books to users based on their preferences and the reviews left.<br />
 
-Dettagli:<br />
-1. Aggiungi un metodo raccomandaLibri nella classe Utente. Questo metodo, quando invocato, dovrebbe ritornare una lista di libri suggeriti.
-2. La raccomandazione dovrebbe basarsi sui seguenti criteri:
-  1. Libri dello stesso genere di quelli che l'utente ha già acquistato e che hanno una valutazione media alta (ad esempio, 4 o 5 stelle).
-  2. Libri scritti dagli autori dei libri già acquistati dall'utente.
-  3. Se l'utente non ha acquistato nessun libro o se non ci sono libri che soddisfano i criteri sopra, suggerisci i libri più popolari della libreria.
-3. Implementa un metodo valutazioneMedia nella classe Libro per calcolare la valutazione media basata sulle recensioni.
-4. Nella classe LibreriaOnline, implementa un metodo libriPopolari che ritorna i libri con il maggior numero di recensioni positive.
-5. L'obiettivo finale di questo esercizio è sviluppare un sistema di raccomandazione che suggerisca libri pertinenti e di interesse per l'utente, migliorando così l'esperienza dell'utente e aumentando potenzialmente le vendite per la libreria.
+Details:<br />
+1. Add a recommendBooks method to the User class. This method, when called, should return a list of suggested books.
+2. The recommendation should be based on the following criteria:
+  1. Books of the same genre as those the user has already bought and which have a high average rating (for example, 4 or 5 stars).
+  2. Books written by the authors of the books the user has already bought.
+  3. If the user hasn't bought any books or if there are no books meeting the above criteria, suggest the bookstore's most popular books.
+3. Implement an averageRating method in the Book class to calculate the average rating based on reviews.
+4. In the OnlineBookstore class, implement a popularBooks method that returns the books with the highest number of positive reviews.
+5. The ultimate goal of this exercise is to develop a recommendation system that suggests relevant and interesting books for the user, thereby enhancing the user experience and potentially increasing sales for the bookstore.
 
-# Lista Tasks
-
-1. Creazione e definizione classe Utente con relative variabili e metodi ( acquistaLibro() e lasciaRecensione() )
-2. Creazione e definizione classe Libro con relative variabili e metodi ( mostraDettagli() )
-3. Creazione e definizione classe Recensione con relative variabili
-4. Creazione e definizione classe LibreriaOnline con relative variabili e metodi ( aggiungiUtente(), aggiungiLibro(), aggiungiLibro(), aggiungiRecensione(), mostraLibri() )
-5. 5.Creazione DB
-6. Crezione collegamento DB
-7. Testing primi metodi DAO (TEST EFFETTUATI CON SUCCESSO)
+# TaskList
+1. Creation and definition of the User class with related variables and methods (buyBook() and leaveReview()).
+2. Creation and definition of the Book class with related variables and methods (showDetails()).
+3. Creation and definition of the Review class with related variables.
+4. Creation and definition of the OnlineBookstore class with related variables and methods (addUser(), addBook(), addReview(), displayBooks()).
+5. Database creation.
+6. Database connection setup.
+7. Testing initial DAO methods (TESTS CONDUCTED SUCCESSFULLY).
