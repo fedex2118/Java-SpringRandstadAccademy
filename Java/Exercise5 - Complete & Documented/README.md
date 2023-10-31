@@ -1,79 +1,73 @@
-# NegozioSportivo
+# SportsStore
+Welcome to the Sport Store Web Application, an application for managing an online sports store. This application allows users to register, log in, explore products available in the store, add products to the cart, make purchases, and more.
 
-Benvenuti nella Sport Store Web Application, un'applicazione per la gestione di un negozio sportivo online. Questa applicazione consente agli utenti di registrarsi, effettuare l'accesso, esplorare i prodotti disponibili nel negozio, aggiungere prodotti al carrello, effettuare acquisti e altro ancora.
+# Project Description
+The application was developed in Java and is based on a client-server architecture. It uses a MySQL database to manage user data and products available in the store.
 
-## Descrizione del Progetto
+# Main Features
+Registration: Users can register a new account by entering information such as username, password, email, first name, and last name.
 
-L'applicazione è stata sviluppata in Java ed è basata su un'architettura client-server. Utilizza un database MySQL per la gestione dei dati degli utenti e dei prodotti disponibili nel negozio.
+Login: Registered users can log in using their username and password.
 
-## Funzionalità Principali
+Product Exploration: Users can explore the list of products available in the store and view details such as name, description, price, and availability.
 
-- **Registrazione**: Gli utenti possono registrare un nuovo account inserendo informazioni come nome utente, password, email, nome e cognome.
+Cart Management: Users can add products to their cart, specifying the desired quantity. They can also remove products from the cart.
 
-- **Accesso**: Gli utenti registrati possono effettuare l'accesso utilizzando il loro nome utente e la password.
+Product Purchase: Users can confirm the purchase of the products in their cart. The purchase total will be calculated, and users can confirm or cancel the purchase.
 
-- **Esplorazione dei Prodotti**: Gli utenti possono esplorare l'elenco dei prodotti disponibili nel negozio e visualizzare dettagli come nome, descrizione, prezzo e disponibilità.
+Administrator Management: Administrator users have access to additional features, such as adding and removing products from the store.
 
-- **Gestione del Carrello**: Gli utenti possono aggiungere prodotti al proprio carrello, specificando la quantità desiderata. Possono anche rimuovere prodotti dal carrello.
+# Requirements
+Java JDK 21 (recommended version)
+MySQL Server
+JDBC Connector/J version >=8
 
-- **Acquisto di Prodotti**: Gli utenti possono confermare l'acquisto dei prodotti presenti nel loro carrello. Il totale dell'acquisto verrà calcolato e gli utenti possono confermare o annullare l'acquisto.
+# Installation
+1. Clone the repository:
+git clone https://github.com/yourname/sport-store-app.git
 
-- **Gestione degli Amministratori**: Gli utenti amministratori hanno accesso a funzionalità aggiuntive, come l'aggiunta e la rimozione di prodotti dal negozio.
+2. Open the project in Eclipse and ensure JDK 21 is installed. If not already installed, you can download it from Oracle's official site and set it up in Eclipse.
 
-## Requisiti
+3. Add the MySQL JDBC connector (Connector/J) to the Eclipse project:
 
-- Java JDK 21 (versione consigliata)
-- MySQL Server
-- JDBC Connector/J versione >=8
+   1. Download the latest version of the MySQL connector from MySQL's official website.
+   2. In Eclipse, right-click the project and select "Build Path" -> "Configure Build Path".
+   3. In the "Libraries" tab, click "Add External JARs" and select the downloaded MySQL connector JAR file.
+   4. Click "Apply and Close" to confirm.
 
-## Installazione
+4. Create the MySQL database and the necessary tables by running the SQL instructions provided in DbSetting.sql.
 
-1. Clonare il repository:
+5. Modify the static database connection variables in the NegozioDao.java file to reflect your MySQL database configuration.
 
-`git clone https://github.com/tuonome/sport-store-app.git`
+6. Run the project in Eclipse.
 
-2. Aprire il progetto in Eclipse e assicurarsi di avere installato JDK 21. Se non è già installato, è possibile scaricarlo dal sito ufficiale di Oracle e configurarlo in Eclipse.
+# Project Task Management
+TASK 1: Establish specifications.
 
-3. Aggiungere il connector JDBC MySQL (Connector/J) al progetto Eclipse:
-   1. Scaricare l'ultima versione del connettore MySQL dal sito ufficiale di MySQL.
-   2. In Eclipse, fare clic con il pulsante destro del mouse sul progetto e selezionare "Build Path" -> "Configure Build Path".
-   3. Nella scheda "Libraries", fare clic su "Add External JARs" e selezionare il file JAR del connettore MySQL scaricato.
-   4. Fare clic su "Apply and Close" per confermare.
+TASK 2: Set code rules.
 
-4. Creare il database MySQL e le tabelle necessarie eseguendo le seguenti istruzioni SQL presenti su DbSetting.sql
+TASK 3: Structure DB, menu structure, entity structure.
 
-5. Modificare le variabili statiche di connessione al database nel file NegozioDao.java per riflettere la configurazione del tuo database MySQL
+TASK 4: Merge the three logics and solve merge issues. (GitHub explosion management)
 
-6. Eseguire il progetto su Eclipse.
+TASK 5: Implement methods communicating with DB: registration, logging.
 
-# Gestione Task Progetto
+TASK 6: Implement methods communicating with DB: add products, remove products from the cart, and USER purchase.
 
-TASK 1: stabilire le specifiche.
+TASK 7: Implement methods communicating with DB: add products, remove products from store ADMIN.
 
-TASK 2: stabilire code rules.
+TASK 8: Testing implementations related to USER menu.
 
-TASK 3: struttura DB, struttura menu, struttura entità.
+TASK 9: Testing implementations related to ADMIN menu.
 
-TASK 4: unione delle tre logice e risoluzione di problemi di merge. (gestione esplosione github)
+TASK 9: Resolve minor issues (typos, loop interruptions).
 
-TASK 5: implementazione metodi comunicanti con DB: registrazione, logging
+TASK 10: Implement the purchase table in the DB.
 
-TASK 6: implementazione metodi comunicanti con DB: agginuta prodotti, rimozione prodotti da carrello e acquisto UTENTE
+TASK 11: Testing the implementations related to the purchase table.
 
-TASK 7: implementazione metodi comunicanti con DB: aggiunta prodotti, rimozione prodotti da negozio ADMIN
+TASK 12: Implement documentation.
 
-TASK 8: testing delle implementazioni riguardanti menu UTENTE.
+TASK 13: Implement product search.
 
-TASK 9: testing delle implementazioni riguardanti menu ADMIN.
-
-TASK 9: risoluzione problemi minori (typo, non interruzioni di cicli).
-
-TASK 10: implementazione tabella acquisti in DB.
-
-TASK 11: testing delle implementazioni riguardanti tabella acquisti.
-
-TASK 12: implementazione documentazione
-
-TASK 13: Implementazione ricerca per prodotto.
-
-TASK 14: Testing ricerca per prodotto.
+TASK 14: Testing product search.
